@@ -9,7 +9,7 @@ flatpak override --user --nofilesystem=home io.github.Faugus.faugus-launcher
 flatpak override --user --filesystem=~/Faugus io.github.Faugus.faugus-launcher
 flatpak override --user --filesystem=~/.local/share/umu io.github.Faugus.faugus-launcher
 flatpak override --user --filesystem=~/.local/share/Steam/compatibilitytools.d io.github.Faugus.faugus-launcher
-flatpak override --user --env=PROTON_LOG_DIR=/home/nellokudo/Faugus io.github.Faugus.faugus-launcher
+flatpak override --user --env=PROTON_LOG_DIR=~/Faugus io.github.Faugus.faugus-launcher
 ```
 
 Also for decent flatpak theming:
