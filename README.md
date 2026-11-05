@@ -5,6 +5,7 @@ Finally making a place to remember commands / setup stuff I usually forget about
 
 Due to those *amazing* gacha games, Faugus is sandboxed to just ~/Faugus, umu's steamrt, and installed Proton versions. Proton logs are pinned to ~/Faugus too. (External drives are still visible but whatever)
 ```
+mkdir -p ~/Faugus
 flatpak override --user --nofilesystem=home io.github.Faugus.faugus-launcher
 flatpak override --user --filesystem=~/Faugus io.github.Faugus.faugus-launcher
 flatpak override --user --filesystem=~/.local/share/umu io.github.Faugus.faugus-launcher
